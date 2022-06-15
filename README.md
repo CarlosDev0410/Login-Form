@@ -6,4 +6,4 @@
 
 ## Preview 
 
-* [Imagem do Projeto]([https://www.devmedia.com.br/guia/css/38149](https://github.com/CarlosDev0410/Login-Form/commit/3c791509c7ec828f2614bbdeb40a5311eb95a526))
+* [Imagem do Projeto](https://github.com/CarlosDev0410/Login-Form/commit/3c791509c7ec828f2614bbdeb40a5311eb95a526)
