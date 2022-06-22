@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
     <title>Login Form</title>
 </head>
 <body>
@@ -13,22 +14,22 @@
         <form>
             <div class="box-usuario">
                 <input type="text" name="" required="">
-                <label> Usuário</label>
+                <label> Username</label>
             </div>
             <div class="box-usuario">
                 <input type="password" name="" required="">
-                <label>Senha</label>
+                <label>password</label>
             </div>
             
-            <a href="#">
+            <a href="#" onclick="mostrar()">
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
-                Enviar
+                SUBMIT
             </a>
         </form> 
-        <div class="loading">    
+        <div id="loading">    
             <div class="spinner"></div>  
         </div>
     </div>
