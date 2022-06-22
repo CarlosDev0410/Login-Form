@@ -5,7 +5,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: Poppins-Regular, sans-serif;
     /*background: linear-gradient(#141e30, #243b55);*/
     background: #141e30;
     background: -webkit-linear-gradient(0deg, #141e30 0%, #03e9f4 100%);
@@ -57,6 +57,19 @@ body {
     color: #fff;
     pointer-events: none;
     transition: .5s;
+    
+}
+
+.box-remember {
+    font-family: Poppins-Regular;
+    font-size: 13px;
+    color: #fff;
+    cursor: pointer;
+    background: transparent;
+    line-height: 1.2;
+    display: block;
+    position: relative;
+    text-decoration: none;
 }
 
 .login-box .box-usuario input:focus~label,
@@ -77,11 +90,12 @@ body {
     text-transform: uppercase;
     overflow: hidden;
     transition: .5s;
-    margin-top: 40px;
+    margin-top: 50px;
     letter-spacing: 4px;
     border: 0.5px solid #03e9f4;
     border-radius: 5px;
 }
+
 
 .login-box a:hover {
     background: #03e9f4;
